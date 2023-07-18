@@ -28,4 +28,15 @@ else:
     print("Resposta de Paulo! :(")
     score = score - 1
 
-print(f"O quiz acabou. Sua pontuação total foi de {score}.")
+print("Qual é o jogo mais jogado da steam hoje? \
+\n (A)CSGO \n (B)Dota 2 \n (C)Terraria \n (D)Minecraft \n (E)GTA \n")
+resposta3 = input("Resposta: ")
+
+if resposta3 == "A":
+    print("Você acertou a resposta! \n")
+    score = score + 1
+else:
+    print("Você errou a resposta! \n")
+    socre = score - 1
+
+print(f"Seu total de pontos foi de: {score} pontos")
